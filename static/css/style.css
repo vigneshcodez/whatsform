@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: DM Sans, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1e0e62;
+  background-color: #f9fafb;
+  -webkit-font-smoothing: antialiased;
+}
+.banner-text1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  line-height: 1.2em;
+}
+.banner-text2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1e0e62;
+}
+
+.cnavbar {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  background-color: white !important;
+}
+
+.right a {
+  text-decoration: none;
+  color: #868692;
+  font-size: 18px;
+  padding: 8px;
+}
+.login {
+  background-color: green;
+  color: white !important;
+  /* align-self: center; */
+  padding: 10px 30px 10px 30px !important;
+  border-radius: 500px;
+}
+
+.banner {
+  margin: 35px 0px 50px;
+}
+
+.pricing-table-wrapper {
+  width: 100%;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: auto;
+}
+.pricing-table {
+  border-collapse: initial;
+  border-spacing: 0;
+}
+.pricing-table td {
+  height: 50px;
+  border-bottom: 1px solid #e9eef2;
+  font-size: 14px;
+  color: #495259;
+  padding: 0;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  width: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pricing-table td:nth-child(n + 2) {
+  text-align: center;
+  min-width: 100px;
+}
+.plan {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.garuntee {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.garuntee-text {
+  font-family: "DM Sans", sans-serif;
+}
+.lgs {
+  margin-top: 100px;
+  padding: 10px 50px 10px 50px;
+  background-color: #29b21f;
+  border-radius: 50px;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+}
+.color-heading {
+  padding: 20px;
+  color: #868692;
+  font-size: 18px;
+}
+.polict-para {
+  font-size: 18px !important;
+  color: #1e0e62 !important;
+}
+.affiliate {
+  font-size: 18px;
+  text-decoration: none;
+  color: #29b21f;
+}
+.a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.pay {
+  text-decoration: none;
+  color: #1e0e62;
+}
+.pay:active {
+  color: #29b21f;
+  border-bottom: 2px solid #29b21f;
+}
+
+@media only screen and (max-width: 600px) {
+  .abcd {
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
